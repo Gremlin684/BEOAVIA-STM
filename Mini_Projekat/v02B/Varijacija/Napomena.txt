@@ -1,0 +1,1 @@
+Prva verzija sa prekidima je ukljucivala i prekide koji nisu bili vezani za taster, sada se promena stanja lampice desava samo pritiskom na taster
