@@ -1,0 +1,1 @@
+LED2 se ukljucuje nakon sto je taster 1 kontinualno pristisnut 2 sekunde i iskljucuje se nakon sto se taster 1 otpusti
