@@ -1,0 +1,1 @@
+LED2 (PA1) ukljucen dok je taster 1 (PA4) pristnut a iskljucena kada nije, koriscenjem prekida
