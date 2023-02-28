@@ -102,7 +102,7 @@ while (1)
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);
 
-		  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0))
+		  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4))
 		  {
 			  HAL_Delay(5000);
 
