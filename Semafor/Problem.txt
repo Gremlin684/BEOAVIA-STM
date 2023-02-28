@@ -1,4 +1,4 @@
-Taster je povezan na B0, pa ce se pozivati u if-u kao HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
+Taster je povezan na A4, pa ce se pozivati u if-u kao HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4);
 
 Ideja koda je da prvo sve lampice svetle 2 sekunde samo da bih video da rade
 
@@ -6,7 +6,11 @@ Zatim se ulazi u while, gde se ostavlja ukljucena samo crvena lampica da svetli
 
 If se automatski aktivira, bez stiskanja dugmeta i sve iz if-a se uredno izvrsi...
 
-Mislio sam da je iskaz HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0) tacan bez stiskanja dugmeta, pa sam sve smestio u else i opet isto, kao da "if / else" ne postoji i samo se sve izvrsi
+Mislio sam da je iskaz HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4) tacan bez stiskanja dugmeta, pa sam sve smestio u else i opet isto, kao da "if / else" ne postoji i samo se sve izvrsi
 
-*Dugme - Pin B0 je stavljen kao gpio input
+*Dugme - Pin A4 je stavljen kao gpio input
 *Proverio sam dugme na voltmetru, sve je okej
+
+-----------------------------------------------
+
+*Pull-down je bio problem na tom tasteru, sada sve radi
