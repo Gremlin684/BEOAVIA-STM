@@ -1,1 +1,0 @@
-LED1 (PC13) blinka frekvencijom od 1Hz
