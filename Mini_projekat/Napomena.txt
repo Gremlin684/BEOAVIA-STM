@@ -1,1 +1,5 @@
-Dodacu tekst
+ - Zadaci 1, 3, 4 rade u okviru ovog koda
+ - Dodao sam komentare u kodu za stvarcice koje mi nisu kristalno jasne, pa ko bude gledao ovo, znacilo bi mi da mi objasni samo znacenje tih delova koda
+ - Zadatak 2 cu okaciti naknadno (mada je vec bio okacen i radio je) jer ga nemam na ovoj masini, a obrisao sam ga sa gita jer sam glupo rasporedio foldere
+ 
+ To bi bilo sve, hvala lepo onome ko bude prekontrolisao!
